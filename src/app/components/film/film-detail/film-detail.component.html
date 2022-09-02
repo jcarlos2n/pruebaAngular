@@ -1,15 +1,15 @@
 <div class="detailCard">
     <div>
-        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{films.poster_path}}" class="card-img-top" alt="...">
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{films.poster_path}}" alt="...">
     </div>
-    <div>
-        <h4 class="card-title">{{films.title}}</h4>
+    <div class="containerInfo">
+        <h2 class="card-title">{{films.title}}</h2>
 
         <p class="card-text">
-            Overview: {{films.overview}}<br><br>
-            Duration: {{films.runtime}} min<br>
-            Release date: {{films.release_date}}<br>
-            ID: {{films.id}}<br>
+           <strong>Overview:</strong> {{films.overview}}<br><br>
+           <strong>Duration:</strong> {{films.runtime}} min<br>
+           <strong>Release date:</strong> {{films.release_date}}<br>
+           <strong>ID:</strong> {{films.id}}<br>
         </p>
 
         <button routerLink="/films">Volver</button>

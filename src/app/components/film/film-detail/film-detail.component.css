@@ -2,5 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    padding: 1em;
+    background-color: aliceblue;
+    border-radius: 2em;
+}
+.containerInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1em;
+}
+
+button{
+    border-radius: 1em;
+    border: none;
+    background-color: rgb(152, 152, 240);
+}
+
+button:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
 }

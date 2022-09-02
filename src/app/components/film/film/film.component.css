@@ -1,0 +1,23 @@
+.filmCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: azure;
+    width: 25em;
+    margin: 0.5em;
+    border-radius: 2em;
+    padding: 0.3em;
+}
+
+.buttonInfo{
+    border-radius: 0.5em;
+    margin-left: 1em;
+    background-color: rgb(152, 152, 240);
+    border: none;
+}
+
+.buttonInfo:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
